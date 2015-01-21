@@ -3,7 +3,7 @@ var express = require('express'),
 	app = express(),
     mongoose = require('mongoose');
 
-app.set('port', process.env.PORT || 3300);
+app.set('port', process.env.PORT || 80);
 app.set('views', __dirname + '/views');
 app = config(app);
 

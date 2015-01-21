@@ -1,10 +1,11 @@
 {
   "name": "haivl",
-  "version": "1.0.0",
+  "version": "1.0.0-2",
   "description": "This is a web application that allows users to upload images",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,9 @@
     "moment": "^2.8.4",
     "mongoose": "^3.8.21",
     "morgan": "^1.5.1"
+  },
+  "subdomain": "haivl",
+  "engines": {
+    "node": "0.10.x"
   }
 }
